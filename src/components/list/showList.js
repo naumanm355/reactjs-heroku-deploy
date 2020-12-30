@@ -56,7 +56,7 @@ export default function ShowList(props) {
         setUpdateList({name: data.name, id: data._id})
     }
     const deleteList = (id) => {
-        // console.log(id)
+        // console.log(id) comment
         props.handleDeleteList(id);
         setTimeout(() => {
             props.handleShowList()
